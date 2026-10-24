@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body { @apply bg-gray-50 text-gray-800 font-sans; }
+.btn { @apply inline-block rounded-lg bg-brand px-4 py-2 font-semibold text-white hover:opacity-90 disabled:opacity-50; }
+.btn-dark { @apply inline-block rounded-lg bg-dark px-4 py-2 font-semibold text-white hover:opacity-90; }
+.input { @apply w-full rounded-lg border border-gray-300 bg-white px-3 py-2 outline-none focus:border-brand; }
